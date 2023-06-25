@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Note Taking App</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.7/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-800 text-white">
+    <div class="container mx-auto">
+        <h1 class="text-4xl font-bold mb-4">Book Note Taking App</h1>
+        <button id="addFolderButton" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mb-4">
+            Add new folder
+        </button>
+        <div id="bookFolders" class="grid grid-cols-3 gap-4">
+            <!-- Book folders will be dynamically added here -->
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
